@@ -16,7 +16,8 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-gui": "^0.2.1"
+    "react-gui": "^0.2.1",
+    "styled-components": "^5.3.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
@@ -31,6 +32,7 @@
     "@types/prettier": "^2.3.2",
     "@types/react": "^17.0.15",
     "@types/react-dom": "^17.0.9",
+    "@types/styled-components": "^5.1.11",
     "@types/webpack-dev-server": "^3.11.5",
     "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.5",
