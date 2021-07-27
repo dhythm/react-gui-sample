@@ -1,13 +1,13 @@
 import React from "react";
+import { Text } from "react-gui/dist/exports/text";
 import { useHover } from "react-gui/use-hover";
-import { StyledView } from "./components/View";
 
 const App: React.FunctionComponent = () => {
   const [hovered, onHoverChange] = React.useState(false);
   const ref = useHover({ onHoverChange });
   return (
     <div className="App">
-      <StyledView>Hello, World!</StyledView>
+      <Text>Hello, World!</Text>
       <div
         ref={ref}
         style={{
