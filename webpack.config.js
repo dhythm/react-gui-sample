@@ -36,5 +36,6 @@ module.exports = {
     port: 3000,
     hotOnly: true,
   },
+  devtool: "inline-source-map",
   plugins: [new webpack.HotModuleReplacementPlugin()],
 };
